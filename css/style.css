@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 5px;
+    border: 1px solid #b29c9c;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background: linear-gradient(#a48e8e, #91cb99);
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: rgb(100, 146, 106)
+}
+
+.logo {
+    height: 60px;
+    display: block;
+}
+
+/* Hero Content */
+.container-hero-content {
+    padding: 130px 80px 50px 80px;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(#77c285, #b3a1a1, #dacece);
+}
+
+
+
+
+.hero-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.1;
+}
+
+.hero-content-left p {
+    font-size: 22px;
+}
+
+.hero-content-left h1 {
+    font-size: 50px;
+    font-weight: 650;
+}
+
+.img-me {
+    height: 360px;
+    width: auto;
+}
+
+.hero-content-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content-right h2 {
+    font-size: 35px;
+}
+
+.hero-content-right p {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    font-size: 40px;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+
+/* Project */
+.project {
+    height: 100vh;
+    padding: 100px 80px 50px 80px;
+    background: linear-gradient(#dacece, #d6d6d6, #bbd2be);
+}
+
+.project h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+    gap: 40px;
+    line-height: 1.5;
+}
+
+.card-project {
+    border-radius: 30px;
+    width: 70%;
+    height: auto;
+    padding: 30px;
+    background: #dfdfdf;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+}
+
+.btn-card-wrapper {
+    margin-top: 20px;
+}
+
+.btn-card {
+    text-decoration: none;
+    font-weight: 700;
+    color: #3b3a3a;
+    background: #dacece;
+    border-radius:20px;
+    padding: 10px;
+}
+
+.btn-card:hover {
+    background: #c2b8b8;
+}
+
+
+/* Contact */
+.contact {
+    height: 100vh;
+    padding: 100px 80px 50px 80px;
+    background: linear-gradient(#bbd2be, #abbeae, #c8c1c1);
+}
+
+.contact h2 {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.container-contact {
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 140px 10px 1fr;
+    row-gap: 16px;
+    align-items: center;
+    width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-grid label {
+    text-align: left;
+    font-weight: 550;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #c8c1c1;
+}
+
+textarea {
+    height: 90px;
+    resize: none;
+}
+
+.gender-group {
+    display: flex;
+    gap: 25px;
+}
+
+.gender-item {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+button {
+    grid-column: 3;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #c8c1c1;
+    border-radius: 10px;
+    background: #ebdfdf;
+    color: #4d4d4d;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #c2b8b8;
+}
+
+.result {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+    font-size: 25px;
+}
+
+.footer {
+    background: linear-gradient(#e9dddd, #bcc5bd, #9fc7a4);
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
