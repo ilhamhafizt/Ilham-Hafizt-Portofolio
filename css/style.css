@@ -81,9 +81,6 @@ body {
     background: linear-gradient(#77c285, #b3a1a1, #dacece);
 }
 
-
-
-
 .hero-content-left {
     display: flex;
     flex-direction: column;
@@ -154,8 +151,8 @@ body {
 
 .card-project {
     border-radius: 30px;
-    width: 70%;
-    height: auto;
+    width: 355px;
+    height: 235px;
     padding: 30px;
     background: #dfdfdf;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
