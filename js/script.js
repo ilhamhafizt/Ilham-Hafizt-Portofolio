@@ -1,14 +1,14 @@
 // Welcome Text
-document.addEventListener('DOMContentLoaded', function () {
-    const welcomeText = document.getElementById('welcomeText');
-    const guestName = ('Please Enter Your Name!');
+// document.addEventListener('DOMContentLoaded', function () {
+//     const welcomeText = document.getElementById('welcomeText');
+//     const guestName = prompt('Please Enter Your Name!');
 
-    if (guestName === null || guestName.trim() === '') {
-        welcomeText.innerHTML = 'Hello Guest, I am';
-    } else {
-        welcomeText.innerHTML = `Hi ${guestName}, I am`;
-    }
-});
+//     if (guestName === null || guestName.trim() === '') {
+//         welcomeText.innerHTML = 'Hello Guest, I am';
+//     } else {
+//         welcomeText.innerHTML = `Hi ${guestName}, I am`;
+//     }
+// });
 
 // Contact Data
 document.addEventListener('DOMContentLoaded', function () {
