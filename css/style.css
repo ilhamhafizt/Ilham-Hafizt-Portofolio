@@ -188,7 +188,7 @@ body {
     font-size: 35px;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .container-contact {
@@ -204,7 +204,7 @@ body {
     row-gap: 16px;
     align-items: center;
     width: 500px;
-    background: white;
+    background: #dfdfdf;
     padding: 30px;
     border-radius: 15px;
     border: 1px solid #b4b4b4;
@@ -258,7 +258,7 @@ button:hover {
 
 .result {
     width: 400px;
-    background: white;
+    background: #dfdfdf;
     padding: 30px;
     border-radius: 15px;
     border: 1px solid #b4b4b4;
@@ -275,4 +275,107 @@ button:hover {
     text-align: center;
     font-size: 18px;
     font-weight: 600;
+}
+
+
+/* Responsive */
+@media (max-width: 768px){
+    /* Global Fix */
+    * {
+        box-sizing: border-box;
+    }
+
+    section {
+        height: auto !important;
+        min-height: auto;
+        padding: 80px 20px;
+    }
+
+    body {
+        background-color: #f1f5f9;
+        overflow-x: hidden;
+    }
+
+    /* Header */
+    .header {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar a {
+        font-size: 18px;
+    }
+
+    /* Hero Content */
+    .container-hero-content {
+        min-height: auto;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .container-hero-content h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .container-hero-content p {
+        font-size: 17px;
+    }
+
+    .hero-content-left p {
+        text-align: center;
+    }
+    
+    .img-me {
+        margin-bottom: 30px;
+    }
+
+    /* Project */
+    .card {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    /* Contact */
+    .container-contact {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .card-project {
+        width: 90%;
+        height: 100%;
+    }
+
+    .form-grid {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .form-grid > label, 
+    .form-grid > span {
+        display: none;
+    }
+
+    .gender-group {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    button {
+        grid-column: 1;
+        width: 100%;
+    }
+
+    .result {
+        width: 100%;
+    }
 }
