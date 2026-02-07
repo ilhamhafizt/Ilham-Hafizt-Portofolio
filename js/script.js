@@ -1,7 +1,7 @@
 // Welcome Text
 document.addEventListener('DOMContentLoaded', function () {
     const welcomeText = document.getElementById('welcomeText');
-    const guestName = prompt('Please Enter Your Name!');
+    const guestName = ('Please Enter Your Name!');
 
     if (guestName === null || guestName.trim() === '') {
         welcomeText.innerHTML = 'Hello Guest, I am';
