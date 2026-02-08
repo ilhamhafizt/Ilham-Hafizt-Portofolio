@@ -292,6 +292,12 @@ button:hover {
         box-sizing: border-box;
     }
 
+    .container-hero-content,
+    .project,
+    .contact{
+        width:100vw;
+    }
+    
     section {
         height: auto !important;
         min-height: auto;
@@ -342,6 +348,8 @@ button:hover {
     
     .img-me {
         margin-bottom: 30px;
+        max-width: 320px;
+        height: auto;
     }
 
     /* Project */
